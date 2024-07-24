@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Sort Visualization</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="speed-wrapper">
+      <div id="container"></div>
+      <div>
+        <span for="volume">Speed: </span>
+        <input
+          type="range"
+          id="volume"
+          name="volume"
+          max="1000"
+          min="10"
+          value="10"
+        />
+      </div>
+      <div>
+        <span for="range-input">Number of Columns:</span>
+        <input type="text" id="range-input" value="15" />
+        <input type="submit" id="generateNumber" />
+      </div>
+
+      <button id="sort-button">SORT</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
